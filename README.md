@@ -12,7 +12,7 @@ You can install the development version of `cbbdr` from [GitHub](https://github.
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("john-b-edwards/cbbdr")
+devtools::install_github("cfbd/cbbd-r")
 ```
 
 ## Authentication
