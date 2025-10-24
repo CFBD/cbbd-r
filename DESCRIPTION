@@ -1,0 +1,24 @@
+Package: cbbdr
+Title: Access Data from the College Basketball Data API
+Version: 0.0.0.9000
+Authors@R: 
+    person("John", "Edwards", , "edwards1860@gmail.com", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-8533-7504"))
+Description: Obtain data quickly and reliably from the College Basketball Data (CBBD) API. 
+    You can safely and securely store your API key and use it to query the CBBD API, 
+    grabbing data on men's college basketball and returning it in largely rectangular format.
+URL: https://collegebasketballdata.com/
+BugReports: https://github.com/john-b-edwards/cbbdr/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Imports: 
+    cli,
+    data.table,
+    httr2,
+    janitor,
+    keyring,
+    RcppSimdJson
