@@ -4,12 +4,14 @@
 \alias{get_plays_by_date}
 \title{get_plays_by_date}
 \usage{
-get_plays_by_date(date, shooting_plays_only = NULL)
+get_plays_by_date(date, shooting_plays_only = NULL, utc_offset = NULL)
 }
 \arguments{
 \item{date}{Required date filter in ISO 8601 format (YYYY-MM-DD)}
 
 \item{shooting_plays_only}{Optional filter to only return shooting plays}
+
+\item{utc_offset}{Optional UTC offset in hours to adjust the date range}
 }
 \description{
 Retrieve all plays for a given UTC date
