@@ -10,5 +10,5 @@ get_scoreboard(conference = NULL)
 \item{conference}{Optional conference filter}
 }
 \description{
-Retrieves live scoreboard data
+Retrieves live scoreboard data (requires a Patreon Tier 1 subscription or higher)
 }
