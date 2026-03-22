@@ -1,6 +1,6 @@
 #' get_team_leaderboard_stats
 #'
-#' @description Returns premium team leaderboard statistics by season, team, or conference (requires a Patreon Tier 3 subscription or higher)
+#' @description Returns premium team leaderboard statistics by season, team, or conference (requires a Patreon Tier 2 subscription or higher)
 #'
 #' @param season Optional season filter
 #' @param team Optional team name filter

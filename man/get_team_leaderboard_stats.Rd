@@ -14,5 +14,5 @@ get_team_leaderboard_stats(season = NULL, team = NULL, conference = NULL)
 \item{conference}{Optional conference abbreviation filter}
 }
 \description{
-Returns premium team leaderboard statistics by season, team, or conference (requires a Patreon Tier 3 subscription or higher)
+Returns premium team leaderboard statistics by season, team, or conference (requires a Patreon Tier 2 subscription or higher)
 }
