@@ -1,10 +1,10 @@
 #' get_srs
 #'
-#' @description Retrieves SRS ratings for the provided season, team, or conference.
+#' @description Returns Simple Rating System (SRS) ratings.
 #'
-#' @param season Optional season filter
-#' @param team Optional team filter
-#' @param conference Optional conference abbreviation filter
+#' @param season Filters results to the specified season.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

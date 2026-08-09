@@ -12,14 +12,14 @@ get_draft_picks(
 )
 }
 \arguments{
-\item{year}{Optional draft year filter}
+\item{year}{Filters results to the specified draft year.}
 
-\item{draft_team}{Optional NBA team filter}
+\item{draft_team}{Filters results to the specified NBA team.}
 
-\item{source_team}{Optional source team (e.g. NCAA) filter}
+\item{source_team}{Filters results to the specified college team.}
 
-\item{position}{Optional player position abbreviation filter}
+\item{position}{Filters results to the specified player position abbreviation.}
 }
 \description{
-Retrieves historical NBA draft picks
+Returns historical NBA draft picks.
 }

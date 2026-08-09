@@ -1,10 +1,10 @@
 #' get_plays_by_tournament
 #'
-#' @description Retrieve all plays for a given tournament and season
+#' @description Returns all recorded plays for a tournament and season.
 #'
-#' @param tournament Required tournament filter (e.g. NCAA, NIT, etc)
-#' @param season Required season filter
-#' @param shooting_plays_only Optional filter to only return shooting plays
+#' @param tournament The tournament to return, such as NCAA or NIT.
+#' @param season The season to return.
+#' @param shooting_plays_only When true, returns only shooting plays.
 #'
 #' @export
 #'

@@ -7,8 +7,8 @@
 get_conference_history(conference = NULL)
 }
 \arguments{
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Retrieves historical conference membership information
+Returns historical conference membership records.
 }

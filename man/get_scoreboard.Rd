@@ -7,8 +7,8 @@
 get_scoreboard(conference = NULL)
 }
 \arguments{
-\item{conference}{Optional conference filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Retrieves live scoreboard data (requires a Patreon Tier 1 subscription or higher)
+Returns live scoreboard data. This endpoint requires Patreon Tier 1 access or higher.
 }

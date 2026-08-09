@@ -1,9 +1,9 @@
 #' get_plays
 #'
-#' @description Returns all plays for a given game
+#' @description Returns all recorded plays for a game.
 #'
-#' @param game_id Game id filter
-#' @param shooting_plays_only Optional filter to only return shooting plays
+#' @param game_id The game ID.
+#' @param shooting_plays_only When true, returns only shooting plays.
 #'
 #' @export
 #'

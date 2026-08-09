@@ -7,10 +7,10 @@
 get_plays(game_id, shooting_plays_only = NULL)
 }
 \arguments{
-\item{game_id}{Game id filter}
+\item{game_id}{The game ID.}
 
-\item{shooting_plays_only}{Optional filter to only return shooting plays}
+\item{shooting_plays_only}{When true, returns only shooting plays.}
 }
 \description{
-Returns all plays for a given game
+Returns all recorded plays for a game.
 }

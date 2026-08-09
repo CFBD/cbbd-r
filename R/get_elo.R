@@ -1,10 +1,10 @@
 #' get_elo
 #'
-#' @description Retrieves historical Elo ratings
+#' @description Returns historical Elo ratings.
 #'
-#' @param season Optional season filter
-#' @param team Optional team filter
-#' @param conference Optional conference filter
+#' @param season Filters results to the specified season.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

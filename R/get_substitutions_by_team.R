@@ -1,9 +1,9 @@
 #' get_substitutions_by_team
 #'
-#' @description Retrieve all player substitutions for a given team and season
+#' @description Returns all recorded player substitutions for a team and season.
 #'
-#' @param season Required season filter
-#' @param team Required team filter
+#' @param season The season to return.
+#' @param team The team name to return.
 #'
 #' @export
 #'

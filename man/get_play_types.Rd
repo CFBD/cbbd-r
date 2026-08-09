@@ -7,5 +7,5 @@
 get_play_types()
 }
 \description{
-Retrieve list of play types
+Returns available play types and their identifiers.
 }

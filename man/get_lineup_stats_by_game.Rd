@@ -7,8 +7,8 @@
 get_lineup_stats_by_game(game_id)
 }
 \arguments{
-\item{game_id}{Required game id filter}
+\item{game_id}{The game ID.}
 }
 \description{
-Queries lineup statistics for a specific game
+Returns lineup statistics for a game.
 }

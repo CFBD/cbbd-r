@@ -7,12 +7,12 @@
 get_plays_by_team(season, team, shooting_plays_only = NULL)
 }
 \arguments{
-\item{season}{Required season filter}
+\item{season}{The season to return.}
 
-\item{team}{Required team filter}
+\item{team}{The team name to return.}
 
-\item{shooting_plays_only}{Optional filter to only return shooting plays}
+\item{shooting_plays_only}{When true, returns only shooting plays.}
 }
 \description{
-Retrieve all plays for a given team and season
+Returns all recorded plays for a team and season.
 }

@@ -1,6 +1,6 @@
 #' get_venues
 #'
-#' @description Retrieves list of available venues
+#' @description Returns available venues and location information.
 #'
 #' @export
 #'

@@ -1,9 +1,9 @@
 #' get_substitutions_by_player_id
 #'
-#' @description Retrieve all player substitutions for a given player and season
+#' @description Returns all recorded player substitutions for a player and season.
 #'
-#' @param player_id Required player id filter
-#' @param season Required season filter
+#' @param player_id The player ID.
+#' @param season The season to return.
 #'
 #' @export
 #'

@@ -7,5 +7,5 @@
 get_conferences()
 }
 \description{
-Retrieves list of available conferences
+Returns available conferences and their identifiers.
 }

@@ -1,6 +1,6 @@
 #' get_draft_teams
 #'
-#' @description Retrieves list of NBA teams
+#' @description Returns NBA teams represented in the draft data.
 #'
 #' @export
 #'

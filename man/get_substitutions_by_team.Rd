@@ -7,10 +7,10 @@
 get_substitutions_by_team(season, team)
 }
 \arguments{
-\item{season}{Required season filter}
+\item{season}{The season to return.}
 
-\item{team}{Required team filter}
+\item{team}{The team name to return.}
 }
 \description{
-Retrieve all player substitutions for a given team and season
+Returns all recorded player substitutions for a team and season.
 }

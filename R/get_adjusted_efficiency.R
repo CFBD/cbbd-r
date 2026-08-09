@@ -1,10 +1,10 @@
 #' get_adjusted_efficiency
 #'
-#' @description Retrieves adjusted efficiency ratings for the provided season, team, or conference.
+#' @description Returns adjusted offensive and defensive efficiency ratings.
 #'
-#' @param season Optional season filter
-#' @param team Optional team filter
-#' @param conference Optional conference abbreviation filter
+#' @param season Filters results to the specified season.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

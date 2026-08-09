@@ -14,18 +14,18 @@ get_rankings(
 )
 }
 \arguments{
-\item{season}{Optional season filter}
+\item{season}{Filters results to the specified season.}
 
-\item{season_type}{Optional season type filter}
+\item{season_type}{Filters results to the specified season type.}
 
-\item{week}{Optional week filter}
+\item{week}{Filters results to the specified week.}
 
-\item{poll_type}{Optional poll type filter ("ap" or "coaches")}
+\item{poll_type}{Filters results to the AP or Coaches Poll.}
 
-\item{team}{Optional team filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Retrieves historical poll data
+Returns historical poll rankings.
 }

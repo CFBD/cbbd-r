@@ -14,18 +14,18 @@ get_team_season_stats(
 )
 }
 \arguments{
-\item{season}{Optional season filter, required if team is not provided}
+\item{season}{Filters results to the specified season. Required when team is not provided.}
 
-\item{season_type}{Optional season type filter}
+\item{season_type}{Filters results to the specified season type.}
 
-\item{team}{Optional team name filter, required if season is not provided}
+\item{team}{Filters results to the specified team name. Required when season is not provided.}
 
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 
-\item{start_date_range}{Optional season filter, required if team is not provided}
+\item{start_date_range}{Includes games starting at or after this ISO 8601 timestamp.}
 
-\item{end_date_range}{Optional season type filter}
+\item{end_date_range}{Includes games starting at or before this ISO 8601 timestamp.}
 }
 \description{
-Returns team season statistics by year or team
+Returns team season statistics. Provide at least a season or team.
 }

@@ -14,18 +14,18 @@ get_portal_transfers(
 )
 }
 \arguments{
-\item{year}{Source team filter}
+\item{year}{Filters results to the specified transfer season.}
 
-\item{source_team}{Destination team filter}
+\item{source_team}{Filters results to the specified source team.}
 
-\item{destination_team}{Source conference filter}
+\item{destination_team}{Filters results to the specified destination team.}
 
-\item{source_conference}{Destination conference filter}
+\item{source_conference}{Filters results to the specified source conference abbreviation.}
 
-\item{destination_conference}{Position filter}
+\item{destination_conference}{Filters results to the specified destination conference abbreviation.}
 
-\item{position}{Source team filter}
+\item{position}{Filters results to the specified player position.}
 }
 \description{
-Retrieves historical transfer portal activity
+Returns historical transfer portal activity.
 }

@@ -1,12 +1,12 @@
 #' get_lines
 #'
-#' @description Returns betting lines for the first 3000 games that match the provided filters, ordered by start date.
+#' @description Returns betting lines for up to 3,000 games that match the filters, ordered by start date.
 #'
-#' @param season Optional season filter
-#' @param team Optional team name filter
-#' @param conference Optional conference abbreviation filter
-#' @param start_date_range Optional start timestamp in ISO 8601 format
-#' @param end_date_range Optional end timestamp in ISO 8601 format
+#' @param season Filters results to the specified season.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
+#' @param start_date_range Includes games starting at or after this ISO 8601 timestamp.
+#' @param end_date_range Includes games starting at or before this ISO 8601 timestamp.
 #'
 #' @export
 #'

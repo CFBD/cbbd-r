@@ -7,5 +7,5 @@
 get_venues()
 }
 \description{
-Retrieves list of available venues
+Returns available venues and location information.
 }

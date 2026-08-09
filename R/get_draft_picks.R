@@ -1,11 +1,11 @@
 #' get_draft_picks
 #'
-#' @description Retrieves historical NBA draft picks
+#' @description Returns historical NBA draft picks.
 #'
-#' @param year Optional draft year filter
-#' @param draft_team Optional NBA team filter
-#' @param source_team Optional source team (e.g. NCAA) filter
-#' @param position Optional player position abbreviation filter
+#' @param year Filters results to the specified draft year.
+#' @param draft_team Filters results to the specified NBA team.
+#' @param source_team Filters results to the specified college team.
+#' @param position Filters results to the specified player position abbreviation.
 #'
 #' @export
 #'

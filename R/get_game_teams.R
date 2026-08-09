@@ -1,14 +1,14 @@
 #' get_game_teams
 #'
-#' @description Returns team box score statistics and metrics on the first 3000 games that match the provided filters, ordered by start date.
+#' @description Returns team box scores and advanced metrics for up to 3,000 games that match the filters, ordered by start date.
 #'
-#' @param start_date_range Optional start timestamp in ISO 8601 format
-#' @param end_date_range Optional end timestamp in ISO 8601 format
-#' @param team Optional team name filter
-#' @param conference Optional conference abbreviation filter
-#' @param season Optional season filter
-#' @param season_type Optional season type filter
-#' @param tournament Optional tournament filter (e.g. NCAA, NIT, etc)
+#' @param start_date_range Includes games starting at or after this ISO 8601 timestamp.
+#' @param end_date_range Includes games starting at or before this ISO 8601 timestamp.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
+#' @param season Filters results to the specified season.
+#' @param season_type Filters results to the specified season type.
+#' @param tournament Filters results to the specified tournament, such as NCAA or NIT.
 #'
 #' @export
 #'

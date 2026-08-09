@@ -7,12 +7,12 @@
 get_elo(season = NULL, team = NULL, conference = NULL)
 }
 \arguments{
-\item{season}{Optional season filter}
+\item{season}{Filters results to the specified season.}
 
-\item{team}{Optional team filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Retrieves historical Elo ratings
+Returns historical Elo ratings.
 }

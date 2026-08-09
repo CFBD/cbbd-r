@@ -1,13 +1,13 @@
 #' get_rankings
 #'
-#' @description Retrieves historical poll data
+#' @description Returns historical poll rankings.
 #'
-#' @param season Optional season filter
-#' @param season_type Optional season type filter
-#' @param week Optional week filter
-#' @param poll_type Optional poll type filter ("ap" or "coaches")
-#' @param team Optional team filter
-#' @param conference Optional conference filter
+#' @param season Filters results to the specified season.
+#' @param season_type Filters results to the specified season type.
+#' @param week Filters results to the specified week.
+#' @param poll_type Filters results to the AP or Coaches Poll.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

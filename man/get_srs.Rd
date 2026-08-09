@@ -7,12 +7,12 @@
 get_srs(season = NULL, team = NULL, conference = NULL)
 }
 \arguments{
-\item{season}{Optional season filter}
+\item{season}{Filters results to the specified season.}
 
-\item{team}{Optional team filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Retrieves SRS ratings for the provided season, team, or conference.
+Returns Simple Rating System (SRS) ratings.
 }

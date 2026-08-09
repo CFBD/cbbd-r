@@ -7,5 +7,5 @@
 get_draft_teams()
 }
 \description{
-Retrieves list of NBA teams
+Returns NBA teams represented in the draft data.
 }

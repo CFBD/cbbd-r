@@ -1,9 +1,9 @@
 #' get_teams
 #'
-#' @description Retrieves historical team information
+#' @description Returns team and conference information.
 #'
-#' @param conference Optional conference filter
-#' @param season Optional season filter
+#' @param conference Filters results to the specified conference abbreviation.
+#' @param season Returns conference membership for the specified season.
 #'
 #' @export
 #'

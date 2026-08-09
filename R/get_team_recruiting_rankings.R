@@ -1,10 +1,10 @@
 #' get_team_recruiting_rankings
 #'
-#' @description Retrieves historical composite team recruiting rankings
+#' @description Returns historical composite team recruiting rankings.
 #'
-#' @param year Optional year filter
-#' @param team Optional team filter
-#' @param conference Optional conference abbreviation filter
+#' @param year Filters results to the specified recruiting year.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

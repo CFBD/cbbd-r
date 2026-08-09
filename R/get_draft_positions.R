@@ -1,6 +1,6 @@
 #' get_draft_positions
 #'
-#' @description Retrieves list of position names for NBA draft prospects
+#' @description Returns player positions represented in the draft data.
 #'
 #' @export
 #'

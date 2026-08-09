@@ -7,12 +7,12 @@
 get_team_recruiting_rankings(year = NULL, team = NULL, conference = NULL)
 }
 \arguments{
-\item{year}{Optional year filter}
+\item{year}{Filters results to the specified recruiting year.}
 
-\item{team}{Optional team filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Retrieves historical composite team recruiting rankings
+Returns historical composite team recruiting rankings.
 }

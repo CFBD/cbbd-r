@@ -1,11 +1,11 @@
 #' get_recruits
 #'
-#' @description Retrieves historical composite player recruiting ranking and ratings
+#' @description Returns historical composite player recruiting rankings and ratings.
 #'
-#' @param year Optional year filter
-#' @param team Optional college team filter
-#' @param conference Optional college conference filter
-#' @param position Optional position filter
+#' @param year Filters results to the specified recruiting year.
+#' @param team Filters results to the specified college team.
+#' @param conference Filters results to the specified conference abbreviation.
+#' @param position Filters results to the specified player position.
 #'
 #' @export
 #'

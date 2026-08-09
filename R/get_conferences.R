@@ -1,6 +1,6 @@
 #' get_conferences
 #'
-#' @description Retrieves list of available conferences
+#' @description Returns available conferences and their identifiers.
 #'
 #' @export
 #'

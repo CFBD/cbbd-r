@@ -1,13 +1,13 @@
 #' get_portal_transfers
 #'
-#' @description Retrieves historical transfer portal activity
+#' @description Returns historical transfer portal activity.
 #'
-#' @param year Source team filter
-#' @param source_team Destination team filter
-#' @param destination_team Source conference filter
-#' @param source_conference Destination conference filter
-#' @param destination_conference Position filter
-#' @param position Source team filter
+#' @param year Filters results to the specified transfer season.
+#' @param source_team Filters results to the specified source team.
+#' @param destination_team Filters results to the specified destination team.
+#' @param source_conference Filters results to the specified source conference abbreviation.
+#' @param destination_conference Filters results to the specified destination conference abbreviation.
+#' @param position Filters results to the specified player position.
 #'
 #' @export
 #'

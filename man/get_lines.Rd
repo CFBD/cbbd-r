@@ -13,16 +13,16 @@ get_lines(
 )
 }
 \arguments{
-\item{season}{Optional season filter}
+\item{season}{Filters results to the specified season.}
 
-\item{team}{Optional team name filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 
-\item{start_date_range}{Optional start timestamp in ISO 8601 format}
+\item{start_date_range}{Includes games starting at or after this ISO 8601 timestamp.}
 
-\item{end_date_range}{Optional end timestamp in ISO 8601 format}
+\item{end_date_range}{Includes games starting at or before this ISO 8601 timestamp.}
 }
 \description{
-Returns betting lines for the first 3000 games that match the provided filters, ordered by start date.
+Returns betting lines for up to 3,000 games that match the filters, ordered by start date.
 }

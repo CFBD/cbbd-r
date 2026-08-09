@@ -7,14 +7,14 @@
 get_recruits(year = NULL, team = NULL, conference = NULL, position = NULL)
 }
 \arguments{
-\item{year}{Optional year filter}
+\item{year}{Filters results to the specified recruiting year.}
 
-\item{team}{Optional college team filter}
+\item{team}{Filters results to the specified college team.}
 
-\item{conference}{Optional college conference filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 
-\item{position}{Optional position filter}
+\item{position}{Filters results to the specified player position.}
 }
 \description{
-Retrieves historical composite player recruiting ranking and ratings
+Returns historical composite player recruiting rankings and ratings.
 }

@@ -1,13 +1,13 @@
 #' get_team_season_shooting_stats
 #'
-#' @description Retrieves team season shooting statistics
+#' @description Returns team shooting statistics for a season. Provide a team or conference.
 #'
-#' @param season Required season filter
-#' @param season_type Optional season type filter
-#' @param team Team filter, required if conference is not provided
-#' @param conference Conference abbreviation filter, required if team is not provided
-#' @param start_date_range Optional start date range filter
-#' @param end_date_range Optional end date range filter
+#' @param season The season to return.
+#' @param season_type Filters results to the specified season type.
+#' @param team Filters results to the specified team name. Required when conference is not provided.
+#' @param conference Filters results to the specified conference abbreviation. Required when team is not provided.
+#' @param start_date_range Includes games starting at or after this ISO 8601 timestamp.
+#' @param end_date_range Includes games starting at or before this ISO 8601 timestamp.
 #'
 #' @export
 #'

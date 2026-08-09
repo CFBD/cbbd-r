@@ -1,9 +1,9 @@
 #' get_team_roster
 #'
-#' @description Retrieves team roster information
+#' @description Returns team rosters for a season.
 #'
-#' @param season Season filter
-#' @param team Optional team filter
+#' @param season The season to return.
+#' @param team Filters results to the specified team name.
 #'
 #' @export
 #'

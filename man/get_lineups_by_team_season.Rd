@@ -12,14 +12,14 @@ get_lineups_by_team_season(
 )
 }
 \arguments{
-\item{season}{Required season filter}
+\item{season}{The season to return.}
 
-\item{team}{Required team filter}
+\item{team}{The team name to return.}
 
-\item{start_date_range}{Optional start date range filter}
+\item{start_date_range}{Includes games starting at or after this ISO 8601 timestamp.}
 
-\item{end_date_range}{Optional end date range filter}
+\item{end_date_range}{Includes games starting at or before this ISO 8601 timestamp.}
 }
 \description{
-Queries lineup statistics for a given team and season
+Returns lineup statistics for a team and season.
 }

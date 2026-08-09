@@ -14,18 +14,18 @@ get_player_season_stats(
 )
 }
 \arguments{
-\item{season}{Required season filter}
+\item{season}{The season to return.}
 
-\item{season_type}{Optional season type filter}
+\item{season_type}{Filters results to the specified season type.}
 
-\item{team}{Optional team name filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 
-\item{start_date_range}{Required season filter}
+\item{start_date_range}{Includes games starting at or after this ISO 8601 timestamp.}
 
-\item{end_date_range}{Optional season type filter}
+\item{end_date_range}{Includes games starting at or before this ISO 8601 timestamp.}
 }
 \description{
-Returns player statistics by season
+Returns player statistics for a season.
 }

@@ -1,8 +1,8 @@
 #' get_lineup_stats_by_game
 #'
-#' @description Queries lineup statistics for a specific game
+#' @description Returns lineup statistics for a game.
 #'
-#' @param game_id Required game id filter
+#' @param game_id The game ID.
 #'
 #' @export
 #'

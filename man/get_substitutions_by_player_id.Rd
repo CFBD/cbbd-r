@@ -7,10 +7,10 @@
 get_substitutions_by_player_id(player_id, season)
 }
 \arguments{
-\item{player_id}{Required player id filter}
+\item{player_id}{The player ID.}
 
-\item{season}{Required season filter}
+\item{season}{The season to return.}
 }
 \description{
-Retrieve all player substitutions for a given player and season
+Returns all recorded player substitutions for a player and season.
 }

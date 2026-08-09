@@ -1,8 +1,8 @@
 #' get_conference_history
 #'
-#' @description Retrieves historical conference membership information
+#' @description Returns historical conference membership records.
 #'
-#' @param conference Optional conference abbreviation filter
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

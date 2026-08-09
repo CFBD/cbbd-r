@@ -14,18 +14,18 @@ get_player_season_shooting_stats(
 )
 }
 \arguments{
-\item{season}{Required season filter}
+\item{season}{The season to return.}
 
-\item{season_type}{Optional season type filter}
+\item{season_type}{Filters results to the specified season type.}
 
-\item{team}{Team filter, required if conference is not provided}
+\item{team}{Filters results to the specified team name. Required when conference is not provided.}
 
-\item{conference}{Conference abbreviation filter, required if team is not provided}
+\item{conference}{Filters results to the specified conference abbreviation. Required when team is not provided.}
 
-\item{start_date_range}{Optional start date range filter}
+\item{start_date_range}{Includes games starting at or after this ISO 8601 timestamp.}
 
-\item{end_date_range}{Optional end date range filter}
+\item{end_date_range}{Includes games starting at or before this ISO 8601 timestamp.}
 }
 \description{
-Retrieves player season shooting statistics
+Returns player shooting statistics for a season. Provide a team or conference.
 }

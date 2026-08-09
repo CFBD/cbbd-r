@@ -1,13 +1,13 @@
 #' get_player_season_stats
 #'
-#' @description Returns player statistics by season
+#' @description Returns player statistics for a season.
 #'
-#' @param season Required season filter
-#' @param season_type Optional season type filter
-#' @param team Optional team name filter
-#' @param conference Optional conference abbreviation filter
-#' @param start_date_range Required season filter
-#' @param end_date_range Optional season type filter
+#' @param season The season to return.
+#' @param season_type Filters results to the specified season type.
+#' @param team Filters results to the specified team name.
+#' @param conference Filters results to the specified conference abbreviation.
+#' @param start_date_range Includes games starting at or after this ISO 8601 timestamp.
+#' @param end_date_range Includes games starting at or before this ISO 8601 timestamp.
 #'
 #' @export
 #'

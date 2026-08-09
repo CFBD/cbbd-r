@@ -7,12 +7,12 @@
 get_team_leaderboard_stats(season = NULL, team = NULL, conference = NULL)
 }
 \arguments{
-\item{season}{Optional season filter}
+\item{season}{Filters results to the specified season.}
 
-\item{team}{Optional team name filter}
+\item{team}{Filters results to the specified team name.}
 
-\item{conference}{Optional conference abbreviation filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 }
 \description{
-Returns premium team leaderboard statistics by season, team, or conference (requires a Patreon Tier 2 subscription or higher)
+Returns team leaderboard statistics. This endpoint requires Patreon Tier 2 access or higher.
 }

@@ -1,10 +1,10 @@
 #' get_plays_by_player_id
 #'
-#' @description Retrieve all plays for a given player and season
+#' @description Returns all recorded plays for a player and season.
 #'
-#' @param player_id Required player id filter
-#' @param season Required season filter
-#' @param shooting_plays_only Optional filter to only return shooting plays
+#' @param player_id The player ID.
+#' @param season The season to return.
+#' @param shooting_plays_only When true, returns only shooting plays.
 #'
 #' @export
 #'

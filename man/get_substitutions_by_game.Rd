@@ -7,8 +7,8 @@
 get_substitutions_by_game(game_id)
 }
 \arguments{
-\item{game_id}{Game id filter}
+\item{game_id}{The game ID.}
 }
 \description{
-Returns all player substitutions for a given game
+Returns all recorded player substitutions for a game.
 }

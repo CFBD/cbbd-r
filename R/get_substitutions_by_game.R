@@ -1,8 +1,8 @@
 #' get_substitutions_by_game
 #'
-#' @description Returns all player substitutions for a given game
+#' @description Returns all recorded player substitutions for a game.
 #'
-#' @param game_id Game id filter
+#' @param game_id The game ID.
 #'
 #' @export
 #'

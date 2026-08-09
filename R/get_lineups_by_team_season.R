@@ -1,11 +1,11 @@
 #' get_lineups_by_team_season
 #'
-#' @description Queries lineup statistics for a given team and season
+#' @description Returns lineup statistics for a team and season.
 #'
-#' @param season Required season filter
-#' @param team Required team filter
-#' @param start_date_range Optional start date range filter
-#' @param end_date_range Optional end date range filter
+#' @param season The season to return.
+#' @param team The team name to return.
+#' @param start_date_range Includes games starting at or after this ISO 8601 timestamp.
+#' @param end_date_range Includes games starting at or before this ISO 8601 timestamp.
 #'
 #' @export
 #'

@@ -1,8 +1,8 @@
 #' get_scoreboard
 #'
-#' @description Retrieves live scoreboard data (requires a Patreon Tier 1 subscription or higher)
+#' @description Returns live scoreboard data. This endpoint requires Patreon Tier 1 access or higher.
 #'
-#' @param conference Optional conference filter
+#' @param conference Filters results to the specified conference abbreviation.
 #'
 #' @export
 #'

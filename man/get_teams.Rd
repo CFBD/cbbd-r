@@ -7,10 +7,10 @@
 get_teams(conference = NULL, season = NULL)
 }
 \arguments{
-\item{conference}{Optional conference filter}
+\item{conference}{Filters results to the specified conference abbreviation.}
 
-\item{season}{Optional season filter}
+\item{season}{Returns conference membership for the specified season.}
 }
 \description{
-Retrieves historical team information
+Returns team and conference information.
 }

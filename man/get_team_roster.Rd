@@ -7,10 +7,10 @@
 get_team_roster(season, team = NULL)
 }
 \arguments{
-\item{season}{Season filter}
+\item{season}{The season to return.}
 
-\item{team}{Optional team filter}
+\item{team}{Filters results to the specified team name.}
 }
 \description{
-Retrieves team roster information
+Returns team rosters for a season.
 }
