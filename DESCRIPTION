@@ -21,4 +21,4 @@ Imports:
     janitor,
     keyring,
     RcppSimdJson
-Config/roxygen2/version: 8.1.0
+Config/roxygen2/version: 8.1.1
